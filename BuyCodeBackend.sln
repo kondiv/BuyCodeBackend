@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyCodeBackend.Auth", "BuyCodeBackend.Auth\BuyCodeBackend.Auth.csproj", "{5E7E5111-BD25-42AC-8014-291F68C7B49B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyCodeBackend.Host", "BuyCodeBackend.Host\BuyCodeBackend.Host.csproj", "{5E7E5111-BD25-42AC-8014-291F68C7B49B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{92B2845E-93DB-4BC2-B34B-329989F41B64}"
 	ProjectSection(SolutionItems) = preProject
 		compose.yaml = compose.yaml
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyCode.Modules.Auth", "BuyCode.Modules.Auth\BuyCode.Modules.Auth.csproj", "{87294FE2-8384-4B07-9F10-C5DB71293CAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{DB2BAA92-D8AC-44B6-AF80-37F2E660D559}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kernel", "Kernel\Kernel.csproj", "{B28FEAFE-0D49-46D7-B325-D05C7E84ABB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,5 +23,17 @@ Global
 		{5E7E5111-BD25-42AC-8014-291F68C7B49B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E7E5111-BD25-42AC-8014-291F68C7B49B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E7E5111-BD25-42AC-8014-291F68C7B49B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87294FE2-8384-4B07-9F10-C5DB71293CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87294FE2-8384-4B07-9F10-C5DB71293CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87294FE2-8384-4B07-9F10-C5DB71293CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87294FE2-8384-4B07-9F10-C5DB71293CAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB2BAA92-D8AC-44B6-AF80-37F2E660D559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB2BAA92-D8AC-44B6-AF80-37F2E660D559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB2BAA92-D8AC-44B6-AF80-37F2E660D559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB2BAA92-D8AC-44B6-AF80-37F2E660D559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B28FEAFE-0D49-46D7-B325-D05C7E84ABB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B28FEAFE-0D49-46D7-B325-D05C7E84ABB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B28FEAFE-0D49-46D7-B325-D05C7E84ABB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B28FEAFE-0D49-46D7-B325-D05C7E84ABB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

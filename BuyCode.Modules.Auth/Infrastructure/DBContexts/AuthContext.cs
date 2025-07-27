@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace BuyCodeBackend.Auth.Infrastructure.DBContexts;
+namespace BuyCode.Modules.Auth.Infrastructure.DBContexts;
 
 internal class AuthContext : IdentityDbContext<User, Role, Guid>
 {

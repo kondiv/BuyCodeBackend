@@ -1,13 +1,15 @@
-﻿using BuyCodeBackend.Auth.Domain.Constants;
+﻿using BuyCode.Modules.Auth.Infrastructure.DBContexts;
+using BuyCodeBackend.Auth.Domain.Constants;
 using BuyCodeBackend.Auth.Domain.Models;
-using BuyCodeBackend.Auth.Infrastructure.DBContexts;
 using BuyCodeBackend.Auth.Infrastructure.Exceptions;
+using Kernel.Seeder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
-namespace BuyCodeBackend.Auth.Infrastructure.Seeders;
+namespace BuyCode.Modules.Auth.Infrastructure.Seeders;
 
-internal class RolePermissionSeeder
+internal class RolePermissionSeeder : IDataSeeder
 {
     private readonly AuthContext _context;
     private readonly RoleManager<Role> _roleManager;
