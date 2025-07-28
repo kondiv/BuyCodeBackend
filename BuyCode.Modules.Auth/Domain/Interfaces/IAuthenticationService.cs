@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace BuyCodeBackend.Auth.Domain.Interfaces;
+namespace BuyCode.Modules.Auth.Domain.Interfaces;
 
 public interface IAuthenticationService
 {

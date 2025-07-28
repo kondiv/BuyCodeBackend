@@ -1,7 +1,7 @@
-﻿using BuyCode.Modules.Auth.Infrastructure.DBContexts;
-using BuyCodeBackend.Auth.Domain.Constants;
+﻿using BuyCode.Modules.Auth.Domain.Constants;
+using BuyCode.Modules.Auth.Infrastructure.DBContexts;
+using BuyCode.Modules.Auth.Infrastructure.Exceptions;
 using BuyCodeBackend.Auth.Domain.Models;
-using BuyCodeBackend.Auth.Infrastructure.Exceptions;
 using Kernel.Seeder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;

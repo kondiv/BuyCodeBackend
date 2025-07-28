@@ -1,4 +1,4 @@
-﻿namespace BuyCodeBackend.Auth.Domain.Constants;
+﻿namespace BuyCode.Modules.Auth.Domain.Constants;
 
 internal static class Permissions
 {

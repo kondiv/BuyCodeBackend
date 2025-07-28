@@ -5,3 +5,4 @@ riderModule.iml
 /_ReSharper.Caches/
 compose.yaml
 BuyCodeBackend.Auth/Infrastructure/Migrations
+BuyCodeBackend.Host/appsettings.json

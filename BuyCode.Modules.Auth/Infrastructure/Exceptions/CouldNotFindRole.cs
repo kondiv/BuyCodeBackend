@@ -1,6 +1,6 @@
-﻿namespace BuyCodeBackend.Auth.Infrastructure.Exceptions;
+﻿namespace BuyCode.Modules.Auth.Infrastructure.Exceptions;
 
-internal class CouldNotFindRole : Exception
+internal sealed class CouldNotFindRole : Exception
 {
     private CouldNotFindRole(string roleName) 
         : base($"Could not find role with name {roleName}")

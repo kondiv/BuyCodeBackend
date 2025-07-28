@@ -1,5 +1,6 @@
 ﻿using BuyCode.Modules.Auth.Infrastructure.DBContexts;
 using BuyCode.Modules.Auth.Infrastructure.Seeders;
+using BuyCodeBackend.Auth.Domain.Models;
 using Kernel.Seeder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -13,6 +14,8 @@ public static class AuthenticationModule
         services.AddDbContext<AuthContext>(options =>
             options.UseNpgsql(connectionString));
 
+        services.AddIdentity<User, Role>().AddEntityFrameworkStores<AuthContext>();
+        
         services.AddScoped<IDataSeeder, RolePermissionSeeder>();
 
         return services;

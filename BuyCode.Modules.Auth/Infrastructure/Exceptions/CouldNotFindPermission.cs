@@ -1,6 +1,6 @@
-﻿namespace BuyCodeBackend.Auth.Infrastructure.Exceptions;
+﻿namespace BuyCode.Modules.Auth.Infrastructure.Exceptions;
 
-public class CouldNotFindPermission : Exception
+internal sealed class CouldNotFindPermission : Exception
 {
     private CouldNotFindPermission(string permissionName) 
         : base($"Could not find permission with name {permissionName}")

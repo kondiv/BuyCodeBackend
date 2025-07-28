@@ -21,7 +21,10 @@ internal class AuthContext : IdentityDbContext<User, Role, Guid>
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
+        builder.HasDefaultSchema("auth");
+        
         builder.HasPostgresExtension("uuid-ossp");
+        
         base.OnModelCreating(builder);
 
         builder.Entity<Permission>(entity =>
