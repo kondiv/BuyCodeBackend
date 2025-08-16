@@ -1,4 +1,5 @@
-﻿using BuyCodeBackend.Auth.Domain.Models;
+﻿using BuyCode.Modules.Auth.Domain.Models;
+using BuyCodeBackend.Auth.Domain.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 

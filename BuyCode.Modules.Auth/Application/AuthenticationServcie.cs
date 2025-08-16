@@ -5,7 +5,7 @@ namespace BuyCode.Modules.Auth.Application;
 
 public sealed class AuthenticationService : IAuthenticationService
 {
-    public Task<IdentityResult> RegisterUserAsync()
+    public Task<IdentityResult> RegisterUserAsync(UserRegistrationDto userRegistrationDto)
     {
         throw new NotImplementedException();
     }

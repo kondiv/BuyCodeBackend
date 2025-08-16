@@ -2,7 +2,7 @@
 using Confluent.Kafka;
 using Microsoft.Extensions.Logging;
 
-namespace Infrastructure.Kafka.Services;
+namespace Infrastructure.Kafka.Services.Producer;
 
 internal sealed class KafkaProducer : IKafkaProducer
 {

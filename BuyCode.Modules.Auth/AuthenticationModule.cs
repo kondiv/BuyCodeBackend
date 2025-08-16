@@ -1,4 +1,5 @@
-﻿using BuyCode.Modules.Auth.Infrastructure.DBContexts;
+﻿using BuyCode.Modules.Auth.Domain.Models;
+using BuyCode.Modules.Auth.Infrastructure.DBContexts;
 using BuyCode.Modules.Auth.Infrastructure.Seeders;
 using BuyCodeBackend.Auth.Domain.Models;
 using Kernel.Seeder;

@@ -1,6 +1,6 @@
 ﻿using Confluent.Kafka;
 
-namespace Infrastructure.Kafka.Services;
+namespace Infrastructure.Kafka.Services.Producer;
 
 public interface IKafkaProducer : IDisposable
 {

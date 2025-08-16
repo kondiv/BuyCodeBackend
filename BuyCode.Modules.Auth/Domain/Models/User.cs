@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Identity;
 
-namespace BuyCodeBackend.Auth.Domain.Models;
+namespace BuyCode.Modules.Auth.Domain.Models;
 
 internal class User : IdentityUser<Guid>
 {

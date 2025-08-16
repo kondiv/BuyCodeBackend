@@ -1,4 +1,5 @@
 ﻿using Infrastructure.Kafka.Services;
+using Infrastructure.Kafka.Services.Producer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 

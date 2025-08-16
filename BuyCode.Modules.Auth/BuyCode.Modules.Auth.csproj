@@ -21,10 +21,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Infrastructure\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\Kernel\Kernel.csproj" />
     </ItemGroup>
 
